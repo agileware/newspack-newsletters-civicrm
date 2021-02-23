@@ -21,9 +21,9 @@ Author email newsletters in WordPress
 
 ## Relevant files
 
-*PHP: includes/service-providers/civicrm
-*JS: src/service-providers/civicrm
-*The only changes outside of these directories (so far) are to include said files
+* PHP: includes/service-providers/civicrm
+* JS: src/service-providers/civicrm
+* The only changes outside of these directories (so far) are to include said files
 
 ## Use
 
