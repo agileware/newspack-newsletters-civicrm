@@ -1,7 +1,7 @@
 # newspack-newsletters
 Author email newsletters in WordPress
 
-#CiviCRM support
+## CiviCRM support
 
 **Proof of concept** - do not allow anywhere near production
 
@@ -10,7 +10,7 @@ Author email newsletters in WordPress
 * Lists Civi groups for include/exclude
 * Shows number of recipients
 
-#Notes
+### Notes
 
 * Currently does zero authentication against Civi permissions
 * Schedules mailing for immediately
@@ -19,13 +19,13 @@ Author email newsletters in WordPress
 * Haven't worked out how to remove the irrelevant settings yet ('Preview text', 'Disable ads' etc.)
 * In theory it should be possible to add tokens to the Block Editor toolbars. Not sure if they'd survive parsing through MJML
 
-#Relevant files
+## Relevant files
 
 *PHP: includes/service-providers/civicrm
 *JS: src/service-providers/civicrm
 *The only changes outside of these directories (so far) are to include said files
 
-# Use
+## Use
 
 1. In Settings, add MJML App ID and Secret Key
 2. Set Service Provider to CiviCRM
